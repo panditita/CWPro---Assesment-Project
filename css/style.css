@@ -1,3 +1,148 @@
-.bg-dark {
+body {
 	background-color: black;
+	color: goldenrod;
+}
+
+.logo-bb {
+	height: 100px;
+}
+
+.btn {
+	color: white;
+}
+.bg-dark {
+	background-color: black !important;
+}
+
+.my-lg-0 {
+	width: 50%;
+}
+
+.btn-outline-dark {
+	border: 2px solid grey;
+	box-shadow: 0px 0px 5px 0px grey;
+}
+
+.navbar-expand-lg {
+	padding: 0 5rem 0 1rem;
+	box-shadow: 0px 0px 30px -10px white !important;
+}
+
+.jumbotron {
+	padding: 3rem 0 0 0 !important;
+	background-color: black;
+}
+
+.gallery-title {
+	text-align: center;
+	padding-bottom: 2rem;
+}
+.hero-video {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.container.row.events-cards {
+	margin-right: 0 !important;
+	margin-left: 10rem !important;
+}
+
+.card-header {
+	background-color: #660066;
+	color: #daa520;
+	font-weight: bold;
+}
+
+.card-body {
+	background-color: #daa520;
+	color: #660066;
+	font-weight: bold;
+}
+
+.btn-card {
+	background-color: #660066;
+	border: transparent;
+}
+.btn-card:hover {
+	background-color: #a366a3;
+	border: transparent;
+}
+
+.card {
+	background-color: transparent;
+	border-radius: 15px 50px;
+	overflow: hidden;
+}
+
+.intro-text {
+	padding-bottom: 3rem;
+}
+
+footer {
+	color: rgb(123, 123, 123);
+	font-weight: normal;
+	box-shadow: 0px 0px 10px -3px grey !important;
+}
+
+footer .row {
+	justify-content: space-around;
+}
+.social-media-footer {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.social-media-footer > a {
+	color: rgb(123, 123, 123);
+}
+
+.social-media-footer > a:hover {
+	color: white;
+}
+
+.newsletter-form {
+	padding-right: 1rem;
+}
+
+.copyright {
+	padding-top: 1rem;
+}
+
+.image-gallery {
+	padding: 0 2rem 0 2rem;
+}
+.image-gallery > a {
+	padding-bottom: 3rem;
+}
+
+.rounded {
+	border-radius: 1rem !important;
+}
+
+.image-gallery .tall-image {
+	height: 400px !important;
+}
+
+.image-gallery .wide-image {
+	width: 400px !important;
+}
+
+.contact-form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 2rem;
+}
+
+.form-group {
+	width: 600px;
+}
+
+textarea {
+	height: 300px;
+}
+
+.postal-address {
+	padding-top: 5rem !important;
+	text-align: center;
 }
